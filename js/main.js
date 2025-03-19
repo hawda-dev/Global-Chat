@@ -4,12 +4,12 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword,sig
 import { initializeAppCheck, ReCaptchaV3Provider } from 'https://www.gstatic.com/firebasejs/9.9.4/firebase-app-check.js'
 import { getDatabase ,ref ,set ,onValue, onChildRemoved, update, remove} from 'https://www.gstatic.com/firebasejs/9.9.4/firebase-database.js'
 const firebaseConfig = {
-    apiKey: "AIzaSyCjxJ4TxSjngUdYHuZqEjvlomQVN2OOLqU",
-    authDomain: "global-chat-cb729.firebaseapp.com",
-    projectId: "global-chat-cb729",
-    storageBucket: "global-chat-cb729.appspot.com",
-    messagingSenderId: "7814295286",
-    appId: "1:7814295286:web:da5d1756080bb7d86c46d7"
+    apiKey: "AIzaSyCVrdvPoz4thH2tCQDD6d2u4WGl6AO_xg0",
+    authDomain: "hawda-ef4e2.firebaseapp.com",
+    projectId: "hawda-ef4e2",
+    storageBucket: "hawda-ef4e2.firebasestorage.app",
+    messagingSenderId: "279434266121",
+    appId: "1:279434266121:web:f6cf9c1e7abe3450795ad8"
 };
 const firebaseApp = initializeApp(firebaseConfig)
 var db = getDatabase(firebaseApp)
